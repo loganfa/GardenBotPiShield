@@ -916,7 +916,7 @@ Source: http://catalog.tycoelectronics.com/ .. ENG_CD_350759_R.pdf</description>
 <plain>
 <text x="73.66" y="162.56" size="2.54" layer="150">Pump Header</text>
 <text x="40.64" y="215.9" size="2.54" layer="150">RPi Voltage Regulator</text>
-<text x="83.82" y="132.08" size="1.778" layer="150">This low side driver controls the pump.
+<text x="88.9" y="121.92" size="1.778" layer="150">This low side driver controls the pump.
 R2 pulls the pump high to Vin (12V).
 Pump_On is held low until pulled high
 by logic-high from the RPi.</text>
@@ -946,7 +946,7 @@ to interface with this board.</text>
 <instance part="J4" gate="-1" x="99.06" y="208.28"/>
 <instance part="J4" gate="-2" x="99.06" y="205.74"/>
 <instance part="U$1" gate="G$1" x="375.92" y="5.08"/>
-<instance part="D1" gate="D$1" x="78.74" y="139.7" rot="R180"/>
+<instance part="D1" gate="D$1" x="88.9" y="137.16" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1011,10 +1011,6 @@ to interface with this board.</text>
 <pinref part="Q1" gate="Q$1" pin="SOURCE"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="63.5" y1="119.126" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="D1" gate="D$1" pin="P2"/>
-<wire x1="78.74" y1="121.92" x2="78.74" y2="119.126" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="119.126" x2="63.5" y2="119.126" width="0.1524" layer="91"/>
-<junction x="63.5" y="119.126"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
@@ -1049,16 +1045,15 @@ to interface with this board.</text>
 <pinref part="R2" gate="R$1" pin="P2"/>
 <pinref part="Q1" gate="Q$1" pin="DRAIN"/>
 <wire x1="48.26" y1="147.32" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="147.32" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="144.78" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="147.32" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="154.94" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="147.32" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="147.32" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
 <junction x="63.5" y="147.32"/>
-<pinref part="D1" gate="D$1" pin="P1"/>
-<wire x1="78.74" y1="139.7" x2="78.74" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="144.78" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
-<junction x="63.5" y="144.78"/>
+<pinref part="D1" gate="D$1" pin="P2"/>
+<wire x1="71.12" y1="147.32" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="137.16" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
+<junction x="71.12" y="147.32"/>
 </segment>
 </net>
 <net name="PUMP_ON" class="0">
@@ -1096,8 +1091,12 @@ to interface with this board.</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="154.94" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
 <label x="88.9" y="147.32" size="2.54" layer="95"/>
+<pinref part="D1" gate="D$1" pin="P1"/>
+<wire x1="88.9" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="137.16" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
+<junction x="88.9" y="147.32"/>
 </segment>
 </net>
 </nets>

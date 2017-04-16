@@ -421,6 +421,63 @@ DIN A3, landscape with location and doc. field</description>
 <text x="35.56" y="99.06" size="1.778" layer="95">&gt;NAME</text>
 <text x="5.08" y="99.06" size="1.778" layer="94">RPi GPIO Header</text>
 </symbol>
+<symbol name="DIODE">
+<pin name="P1" x="0" y="0" visible="off" length="middle" rot="R90"/>
+<pin name="P2" x="0" y="17.78" visible="off" length="middle" rot="R270"/>
+<wire x1="0" y1="12.7" x2="0" y2="9.652" width="0.254" layer="94"/>
+<wire x1="0" y1="9.652" x2="0" y2="9.144" width="0.254" layer="94"/>
+<wire x1="0" y1="9.144" x2="0" y2="8.636" width="0.254" layer="94"/>
+<wire x1="0" y1="8.636" x2="0" y2="8.128" width="0.254" layer="94"/>
+<wire x1="0" y1="8.128" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="7.112" width="0.254" layer="94"/>
+<wire x1="0" y1="7.112" x2="0" y2="6.604" width="0.254" layer="94"/>
+<wire x1="0" y1="6.604" x2="0" y2="6.096" width="0.254" layer="94"/>
+<wire x1="0" y1="6.096" x2="0" y2="5.588" width="0.254" layer="94"/>
+<wire x1="0" y1="5.588" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.286" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.032" y1="10.16" x2="1.778" y2="10.16" width="0.254" layer="94"/>
+<wire x1="1.778" y1="10.16" x2="1.524" y2="10.16" width="0.254" layer="94"/>
+<wire x1="1.524" y1="10.16" x2="1.27" y2="10.16" width="0.254" layer="94"/>
+<wire x1="1.27" y1="10.16" x2="1.016" y2="10.16" width="0.254" layer="94"/>
+<wire x1="1.016" y1="10.16" x2="0.762" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0.762" y1="10.16" x2="0.508" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0.508" y1="10.16" x2="0.254" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0.254" y1="10.16" x2="-0.254" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="10.16" x2="-0.508" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="10.16" x2="-0.762" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="10.16" x2="-1.016" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="10.16" x2="-1.27" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="10.16" x2="-1.524" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="10.16" x2="-1.778" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="10.16" x2="-2.032" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="10.16" x2="-2.286" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="10.16" x2="0" y2="5.588" width="0.254" layer="94"/>
+<wire x1="0" y1="5.588" x2="2.286" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.286" y1="10.16" x2="2.032" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.032" y1="10.16" x2="0" y2="6.096" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="10.16" x2="0" y2="6.096" width="0.254" layer="94"/>
+<wire x1="0" y1="6.604" x2="1.778" y2="10.16" width="0.254" layer="94"/>
+<wire x1="1.524" y1="10.16" x2="0" y2="7.112" width="0.254" layer="94"/>
+<wire x1="0" y1="7.112" x2="-1.524" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="10.16" x2="0" y2="6.604" width="0.254" layer="94"/>
+<wire x1="1.27" y1="10.16" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="-1.27" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="10.16" x2="0" y2="8.128" width="0.254" layer="94"/>
+<wire x1="0" y1="8.128" x2="1.016" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0.762" y1="10.16" x2="0" y2="8.636" width="0.254" layer="94"/>
+<wire x1="0" y1="8.636" x2="-0.762" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="10.16" x2="0" y2="9.144" width="0.254" layer="94"/>
+<wire x1="0" y1="9.144" x2="0.508" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0.254" y1="10.16" x2="0" y2="9.652" width="0.254" layer="94"/>
+<wire x1="0" y1="9.652" x2="-0.254" y2="10.16" width="0.254" layer="94"/>
+<text x="3.81" y="10.668" size="1.27" layer="95">&gt;NAME</text>
+<text x="3.81" y="8.382" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VOLTAGE_REGULATOR">
@@ -553,6 +610,22 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="J$1" pin="P7_GPIO4" pad="P$7"/>
 <connect gate="J$1" pin="P8_GPIO14" pad="P$8"/>
 <connect gate="J$1" pin="P9_GND" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE">
+<gates>
+<gate name="D$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TH_PASSIVE">
+<connects>
+<connect gate="D$1" pin="P1" pad="P1"/>
+<connect gate="D$1" pin="P2" pad="P2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -836,6 +909,7 @@ Source: http://catalog.tycoelectronics.com/ .. ENG_CD_350759_R.pdf</description>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="J4" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="U$1" library="1111Lib" deviceset="LOGO" device=""/>
+<part name="D1" library="00_ThruHole" deviceset="DIODE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -872,6 +946,7 @@ to interface with this board.</text>
 <instance part="J4" gate="-1" x="99.06" y="208.28"/>
 <instance part="J4" gate="-2" x="99.06" y="205.74"/>
 <instance part="U$1" gate="G$1" x="375.92" y="5.08"/>
+<instance part="D1" gate="D$1" x="78.74" y="139.7" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -936,6 +1011,10 @@ to interface with this board.</text>
 <pinref part="Q1" gate="Q$1" pin="SOURCE"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="63.5" y1="119.126" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="D1" gate="D$1" pin="P2"/>
+<wire x1="78.74" y1="121.92" x2="78.74" y2="119.126" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="119.126" x2="63.5" y2="119.126" width="0.1524" layer="91"/>
+<junction x="63.5" y="119.126"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
@@ -970,11 +1049,16 @@ to interface with this board.</text>
 <pinref part="R2" gate="R$1" pin="P2"/>
 <pinref part="Q1" gate="Q$1" pin="DRAIN"/>
 <wire x1="48.26" y1="147.32" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="147.32" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="147.32" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="144.78" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="154.94" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="147.32" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
 <junction x="63.5" y="147.32"/>
+<pinref part="D1" gate="D$1" pin="P1"/>
+<wire x1="78.74" y1="139.7" x2="78.74" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="144.78" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
+<junction x="63.5" y="144.78"/>
 </segment>
 </net>
 <net name="PUMP_ON" class="0">

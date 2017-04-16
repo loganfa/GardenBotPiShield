@@ -1,0 +1,8 @@
+Ref Des,Qty,Description,Part Number
+U1,1,"5V Regulator, TO-220 Package",Generic
+"R1, R2",2,10kOhm Through-Hole Resistor,Generic
+"C2, C3",2,"10uFarad Capacitor, Pref. Ceramic",Generic
+J1,1,"Pump Header, Vertical",TE-AMP 350759-4 or similar
+J2,1,"2x20 0.1"" Pitch Header",Generic (Tall enough to interface boards)
+J3,1,"DC Barrel Jack, CUI",CUI Inc PJ-202A
+J4,1,Solder Connection. Do not populate.,N/A

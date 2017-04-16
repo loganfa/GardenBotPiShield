@@ -1,3 +1,12 @@
+# Eagle Process Files
+*.b#*
+*.G*
+*.g*
+*.dri
+*.XLN
+*.SST
+*.s#*
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

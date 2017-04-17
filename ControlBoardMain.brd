@@ -6,12 +6,12 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -557,27 +557,44 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C2" library="00_ThruHole" package="TH_PASSIVE" value="10uF" x="28.86" y="4.7" rot="R90"/>
-<element name="C3" library="00_ThruHole" package="TH_PASSIVE" value="10uF" x="16.49" y="18.63" rot="R270"/>
-<element name="J1" library="con-amp" package="350759-4" value="350759-4" x="51.69" y="11.4" rot="R90"/>
+<element name="C2" library="00_ThruHole" package="TH_PASSIVE" value="10uF" x="28.86" y="4.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.6916" y="17.3284" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="C3" library="00_ThruHole" package="TH_PASSIVE" value="10uF" x="16.49" y="18.63" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.5838" y="19.8428" size="1.27" layer="25"/>
+</element>
+<element name="J1" library="con-amp" package="350759-4" value="350759-4" x="51.69" y="11.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.6616" y="19.8892" size="1.27" layer="25" rot="R180"/>
+</element>
 <element name="J2" library="00_ThruHole" package="RPIHEADER" value="RPI_HEADER" x="8.37" y="25.23" smashed="yes">
 <attribute name="NAME" x="5.83" y="20.785" size="1.27" layer="25"/>
 </element>
-<element name="J3" library="00_ThruHole" package="DC_POWERJACK" value="DC_POWERJACK" x="10.3" y="15.26" rot="R180"/>
-<element name="Q1" library="00_ThruHole" package="TH_3PIN" value="NMOS" x="36.55" y="12.35" rot="R90"/>
-<element name="R1" library="00_ThruHole" package="TH_PASSIVE" value="10k" x="42.5" y="20.11" rot="R270"/>
-<element name="R2" library="00_ThruHole" package="TH_PASSIVE" value="10k" x="32.41" y="5.21"/>
-<element name="U1" library="00_ThruHole" package="TH_3PIN" value="VOLTAGE_REGULATOR" x="23.6" y="18.61" rot="R270"/>
+<element name="J3" library="00_ThruHole" package="DC_POWERJACK" value="DC_POWERJACK" x="10.3" y="15.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="9.5704" y="18.1648" size="1.27" layer="25"/>
+</element>
+<element name="Q1" library="00_ThruHole" package="TH_3PIN" value="NMOS" x="36.55" y="12.35" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.1452" y="21.0306" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="R1" library="00_ThruHole" package="TH_PASSIVE" value="10k" x="42.5" y="20.11" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.8406" y="7.448" size="1.27" layer="25"/>
+</element>
+<element name="R2" library="00_ThruHole" package="TH_PASSIVE" value="10k" x="32.41" y="5.21" smashed="yes">
+<attribute name="NAME" x="31.6226" y="6.6578" size="1.27" layer="25"/>
+</element>
+<element name="U1" library="00_ThruHole" package="TH_3PIN" value="VOLTAGE_REGULATOR" x="23.6" y="18.61" smashed="yes" rot="R270">
+<attribute name="NAME" x="21.776" y="20.7298" size="1.27" layer="25"/>
+</element>
 <element name="J4" library="con-molex" package="22-23-2021" value="22-23-2021" x="23.41" y="4.81" smashed="yes" rot="R180">
 <attribute name="MF" value="MOLEX" x="23.41" y="4.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="23.41" y="4.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="19" y="6.95" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="21.0408" y="8.4336" size="1.016" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="1462926" x="23.41" y="4.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="25C3832" x="23.41" y="4.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="25.95" y="9.89" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="U$1" library="1111Lib" package="LOGO" value="LOGO" x="29" y="21"/>
-<element name="D1" library="00_ThruHole" package="TH_PASSIVE" value="DIODE" x="59" y="18" rot="R270"/>
+<element name="U$1" library="1111Lib" package="LOGO" value="LOGO" x="14.0762" y="6.5174"/>
+<element name="D1" library="00_ThruHole" package="TH_PASSIVE" value="DIODE" x="59" y="18" smashed="yes" rot="R270">
+<attribute name="NAME" x="58.0984" y="19.2236" size="1.27" layer="25"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

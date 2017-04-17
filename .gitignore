@@ -6,6 +6,7 @@
 *.XLN
 *.SST
 *.s#*
+*GerbersV*.zip
 
 # Windows image file caches
 Thumbs.db
